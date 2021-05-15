@@ -62,17 +62,26 @@ html, body {
     background-size: cover;
 }
 
+
+    
+ 
+
 .sea {
-    background-image: linear-gradient(rgba(255, 245, 245, 0.918), rgba(99, 85, 85, 0.247)), url("../Images/medium_adventure/swimming-with-sharks_3-1024x576.jpg");
+    background-image: linear-gradient(rgba(255, 245, 245, 0.918), rgba(99, 85, 85, 0.247)), url("../images/logo/login-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
 }
 
 form .error {
     color: #ff0000;
 }
 
-/* .form-signin {
+.form-signin {
     width: 100%;
     padding: 15px;
     margin: auto;
@@ -96,7 +105,7 @@ form .error {
     margin-bottom: 10px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-} */
+}
 
 .sea {
     background-image: linear-gradient(rgba(255, 245, 0.918), rgba(99, 85, 85, 0.247) url("../images/logo/login-background.jpg"));
