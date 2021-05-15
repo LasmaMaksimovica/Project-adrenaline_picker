@@ -19,8 +19,12 @@ html, body {
     justify-content: center;
     color: rgb(109, 58, 58);
     flex-direction: column;
-    /* margin: auto; */
+    margin: auto;
+    text-align: center;
 }
+/* .index-text{
+  text-align: center;
+} */
 
 .footer-row {
     background-color: black;
