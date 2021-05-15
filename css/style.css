@@ -1,5 +1,6 @@
 html, body {
     overflow-x: hidden;
+    height: 100%;
 }
 
 .navbar {
@@ -39,6 +40,36 @@ form .error {
     color: #ff0000;
 }
 
+.contacts h5 {
+    margin: 0;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 100%;
+    height: 400px;
+}
+
+.gmap_iframe {
+    height: 400px !important;
+
+}
+
+
+
+/* style for login with bootstrap*/
+
+/* html,
+body {
+  height: 100%;
 /* style for form with flexbox* / 
 
 /* body {
@@ -46,83 +77,37 @@ form .error {
     font-family: Arial, Helvetica, sans-serif;
 } */
 
-/* .logo {
-    display: flex;
-    margin-top: 200px;
-    height: 100px;
-    justify-content: center;
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
 }
 
-h1 {
-    text-align: center;
-    color: #143478;
-    font-size: 25px;
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
 }
 
-.email-input, .password-input {
-    display: flex;
-    justify-content: center;
+.form-signin .checkbox {
+  font-weight: 400;
 }
 
-.email-lenght {
-    border: 1px solid lightslategrey;
-    border-radius: 3px;
-    min-width: 250px;
-    line-height: 30px;
+.form-signin .form-floating:focus-within {
+  z-index: 2;
 }
 
-.email-lenght:focus {
-    border: solid 3px royalblue;
-    outline: 3px solid transparent;
-    border-radius: 5px;
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
-.password-lenght {
-    border: 1px solid lightslategrey;
-    border-radius: 3px;
-    border-top: none;
-    min-width: 250px;
-    line-height: 30px;
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
-
-.password-lenght:focus {
-    border: solid 3px royalblue;
-    outline: 3px solid transparent;
-    border-radius: 5px;
-}
-
-.password-input {
-    border-top: 0px;
-}
-
-.remember-me {
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-    font-size: 14px;
-    color: #333;
-    padding: 3px;
-}
-
-.btn {
-    display: flex;
-    justify-content: center;
-}
-
-.button {
-    background-color: royalblue;
-    min-width: 200px;
-    color: #fff;
-    border: #999;
-    border-radius: 4px;
-    min-width: 260px;
-    padding: 8px;
-}
-
-.copyright {
-    display: flex;
-    justify-content: center;
-    color: grey;
-    font-size: 14px;
-    margin-top: 25px;
-} */

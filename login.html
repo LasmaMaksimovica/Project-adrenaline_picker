@@ -44,49 +44,39 @@
                 </div>
             </nav>
         </div>
-        <div class="login-form">
-            <h1>Login Form</h1>
-            <form action="#" method="POST">
-                <input type="text" name="username" placeholder="username">
-                <input type="password" name="password" placeholder="password">
-                <span>
-                    <input type="checkbox" name="checkbox">
-                    <label for="checkbox">remember</label>
-                </span>
-                <input type="submit" value="log in">
-            </form>
-        </div>
 
 
-        <!-- <div class="logo">
-        <img src="images/mansion.png" alt="logo of the company x">
-    </div>
-    <div>
-        <h1>Please sign in</h1> 
-    </div>
-   <div class="email-input">
-       <input type="email" class="email-lenght" placeholder="Email address">
-   </div>
-   <div class="password-input">
-<input type="password" placeholder="Password" class="password-lenght">
-   </div>
-   <div class="remember-me">
-       <input type="checkbox" id="remember-me">
-       <label for="remember-me">Remember me</label>
-   </div>
-   <div class="btn">
-       <input type="submit" value="Sign in" class="button">
-   </div>
+        <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+</head>
+<body class="text-center">
+  
+<main class="form-signin">
+<form>
+  <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+  <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
-   <div class="copyright">
-       <p>
-           &copy; 2017-2021
-       </p>
-   </div> -->
+  <div class="form-floating">
+    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+    <label for="floatingInput">Email address</label>
+  </div>
+  <div class="form-floating">
+    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+    <label for="floatingPassword">Password</label>
+  </div>
+
+  <div class="checkbox mb-3">
+    <label>
+      <input type="checkbox" value="remember-me"> Remember me
+    </label>
+  </div>
+  <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+  <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+</form>
+</main>
 
 
 
-    </div>
     <div class="row footer-row d-flex fixed-bottom">
         <p class=" footer-text mx-sm-0 mx-md-3 mx-lg-3 mx-xl-5 my-3 ps-4">© 2020 Copyright: Adventure Corp. All rights
             reserved.</p>
