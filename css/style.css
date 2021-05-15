@@ -30,6 +30,10 @@ html, body {
     color: white;
 }
 
+.footer-text p {
+    margin: 0;
+}
+
 .card-body-first-row {
     background-image: linear-gradient(rgba(255, 245, 245, 0.918), rgba(165, 190, 166, 0.74));
     background-repeat: no-repeat;
