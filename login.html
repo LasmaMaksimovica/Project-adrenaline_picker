@@ -13,6 +13,7 @@
 </head>
 
 <body>
+        
     <div class="container-fluid d-flex flex-column min-vh-100 p-0">
         <div class="row logo-row">
             <nav class="navbar navbar-expand-lg navbar-dark py-0">
@@ -44,16 +45,21 @@
                 </div>
             </nav>
         </div>
+
+
         <div class="row form-signin sea d-flex min-vh-100 justify-content-center align-items-center">
-            <div class="col-3 align-middle">
+            <div class="col-auto align-middle">
+
+                <div class="gradient-background p-3"> 
+
                 <form method=" POST">
-                    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+                    <h1 class="h3 mb-3 fw-normal fs-1">Please sign in</h1>
                     <div class="form-floating">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
                         <label for="floatingInput">Email address</label>
                     </div>
                     <div class="form-floating">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
                         <label for="floatingPassword">Password</label>
                     </div>
                     <div class="checkbox mb-3">
@@ -64,8 +70,12 @@
                     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
                 </form>
             </div>
+            
+            </div>
         </div>
+        
     </div>
+
     <div class="row footer-row">
         <div class="footer-text my-3 text-center">
             <h5>Contacts</h5>
