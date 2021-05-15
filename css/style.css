@@ -67,7 +67,7 @@ html, body {
  
 
 .sea {
-    background-image: linear-gradient(rgba(255, 245, 245, 0.918), rgba(99, 85, 85, 0.247)), url("../images/logo/login-background.jpg");
+    background-image: url("../images/logo/login-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
