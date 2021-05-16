@@ -52,9 +52,13 @@ html, body {
     background-image: url("../images/logo/login-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+}
+
+
+/* background around login form */
+.gradient-background {
+    border-radius: 5px;
+    background-color: rgba(237, 243, 241, 0.7);
 }
 
 form .error {
@@ -87,8 +91,3 @@ form .error {
     border-top-right-radius: 0;
 }
 
-.sea {
-    background-image: linear-gradient(rgba(255, 245, 0.918), rgba(99, 85, 85, 0.247) url("../images/logo/login-background.jpg"));
-    background-repeat: no-repeat;
-    background-size: cover;
-}
