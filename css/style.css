@@ -43,9 +43,14 @@ html, body {
 }
 
 .register-middle-content {
-    background-image: linear-gradient(rgba(255, 245, 245, 0.918), rgba(99, 85, 85, 0.247)), url("../Images/extreme_adventure/swimming-with-sharks_3-1024x576.jpg");
+    background-image: url("../Images/extreme_adventure/swimming-with-sharks_3-1024x576.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.register-container {
+    border-radius: 5px;
+    background-color: rgba(237, 243, 241, 0.7);
 }
 
 .sea {
@@ -54,8 +59,8 @@ html, body {
     background-size: cover;
 }
 
-
 /* background around login form */
+
 .gradient-background {
     border-radius: 5px;
     background-color: rgba(237, 243, 241, 0.7);
@@ -90,4 +95,3 @@ form .error {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
-
