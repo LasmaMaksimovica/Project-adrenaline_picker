@@ -24,19 +24,19 @@ html, body {
     margin: 0;
 }
 
-.card-body-first-row {
+.card-body-first-row, .mild-carousel {
     background-image: linear-gradient(rgba(255, 245, 245, 0.918), rgba(165, 190, 166, 0.74));
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.card-body-second-row {
+.card-body-second-row, .medium-carousel {
     background-image: linear-gradient(rgba(255, 245, 245, 0.918), rgba(165, 167, 190, 0.74));
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.card-body-third-row {
+.card-body-third-row, .extreme-carousel {
     background-image: linear-gradient(rgba(255, 245, 245, 0.918), rgba(190, 165, 165, 0.74));
     background-repeat: no-repeat;
     background-size: cover;
